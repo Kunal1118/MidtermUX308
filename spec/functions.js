@@ -1,44 +1,42 @@
 export function calculateTotal(nickels, dimes, quarters, loonies, toonies) {
-    // Coin values
     const nickelValue = 0.05;
     const dimeValue = 0.10;
     const quarterValue = 0.25;
     const loonieValue = 1.00;
     const toonieValue = 2.00;
   
-    // Calculate total value
     let total = (nickels * nickelValue) + (dimes * dimeValue) + (quarters * quarterValue) + (loonies * loonieValue) + (toonies * toonieValue);
   
     return total;
   }
   
-  // Function to convert Fahrenheit to Celsius
+
   export function fahrenheitToCelsius(fahrenheit) {
     return (fahrenheit - 32) * (5 / 9);
   }
   
-  // Function to calculate the volume of a cube given the height in meters
+
   export function calculateCubeVolume(height) {
     return height ** 3;
   }
   
-  // Function to calculate the total cost of a gym membership with a discount based on the number of friends signed up
+
   export function calculateGymCost(cost, friends) {
     let discount = 0;
   
     if (friends === 1) {
-        discount = 0.05;  // 5% discount for 1 friend
+        discount = 0.05;  // 
     } else if (friends === 2) {
-        discount = 0.10;  // 10% discount for 2 friends
+        discount = 0.10;  // 
     } else if (friends >= 3) {
-        discount = 0.15;  // 15% discount for 3 or more friends
+        discount = 0.15;  // 
     }
   
     const totalCost = cost - (cost * discount);
     return totalCost;
   }
   
-  // Function to determine the damage level based on the Richter scale intensity
+
   export function determineDamageLevel(intensity) {
     let result = '';
   
