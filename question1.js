@@ -4,6 +4,6 @@ function calculateTotalValue(nickels, dimes, quarters, loonies, toonies) {
 }
 
 // Tests
-console.log(calculateTotalValue(0, 0, 0, 0, 0)); // Output: 0
-console.log(calculateTotalValue(1, 1, 1, 1, 1)); // Output: 3.4
-console.log(calculateTotalValue(10, 5, 2, 3, 4)); // Output: 13
+console.log(calculateTotalValue(0, 0, 0, 0, 0));
+console.log(calculateTotalValue(1, 1, 1, 1, 1)); 
+console.log(calculateTotalValue(10, 5, 2, 3, 4));

@@ -13,8 +13,8 @@ function earthquakeDamage(intensity) {
 }
 
 // Tests
-console.log(earthquakeDamage(4.5)); // Output: Little or no damage
-console.log(earthquakeDamage(5.2)); // Output: Some damage
-console.log(earthquakeDamage(6.0)); // Output: Serious damage: walls may crack or fall
-console.log(earthquakeDamage(7.0)); // Output: Disaster: buildings may collapse
-console.log(earthquakeDamage(8.0)); // Output: Catastrophe: most buildings destroyed
+console.log(earthquakeDamage(4.5)); 
+console.log(earthquakeDamage(5.2)); 
+console.log(earthquakeDamage(6.0)); 
+console.log(earthquakeDamage(7.0)); 
+console.log(earthquakeDamage(8.0)); 

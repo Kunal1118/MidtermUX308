@@ -12,8 +12,8 @@ function gymMembershipCost(cost, friends) {
 }
 
 // Tests
-console.log(gymMembershipCost(100, 0)); // Output: 100
-console.log(gymMembershipCost(100, 1)); // Output: 95
-console.log(gymMembershipCost(100, 2)); // Output: 90
-console.log(gymMembershipCost(100, 3)); // Output: 85
-console.log(gymMembershipCost(100, 4)); // Output: 85
+console.log(gymMembershipCost(100, 0)); 
+console.log(gymMembershipCost(100, 1)); 
+console.log(gymMembershipCost(100, 2)); 
+console.log(gymMembershipCost(100, 3)); 
+console.log(gymMembershipCost(100, 4)); 

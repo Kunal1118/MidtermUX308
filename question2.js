@@ -4,6 +4,6 @@ function fahrenheitToCelsius(fahrenheit) {
 }
 
 // Tests
-console.log(fahrenheitToCelsius(32)); // Freezing: Output: 0
-console.log(fahrenheitToCelsius(212)); // Boiling: Output: 100
-console.log(fahrenheitToCelsius(70)); // Room temperature: Output: 21.111...
+console.log(fahrenheitToCelsius(32)); 
+console.log(fahrenheitToCelsius(212)); 
+console.log(fahrenheitToCelsius(70)); 
